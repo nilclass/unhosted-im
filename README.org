@@ -1,0 +1,10 @@
+
+* Unhosted XMPP
+
+  [[http://unhosted.org/][unhosted]] webapp for instant messaging.
+
+  Based on [[https://github.com/RemoteStorage/remoteStorage.js][remoteStorage.js]] and [[https://github.com/sockethub/sockethub][sockethub]].
+
+  Still WIP. Name of the app is a working title, open for suggestions.
+
+
