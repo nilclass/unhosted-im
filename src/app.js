@@ -1,10 +1,12 @@
 
 define([
+  'config',
   'remotestorage/remoteStorage',
   'messages',
   'views/root',
-  'views/accounts'
-], function(remoteStorage, messages, rootView, accountsView) {
+  'views/accounts',
+  'views/roster',
+], function(config, remoteStorage, messages, rootView, accountsView, rosterView) {
 
   var introElement;
   var appElement
@@ -40,6 +42,9 @@ define([
         switch(md[1]) {
         case 'accounts':
           accountsView.load(app, contentElement);
+          break;
+        case 'roster':
+          rosterView.load(app, contentElement);
           break;
         default:
           // jump to root view
