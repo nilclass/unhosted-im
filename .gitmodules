@@ -1,3 +1,6 @@
 [submodule "lib/remoteStorage.js"]
 	path = lib/remoteStorage.js
 	url = git://github.com/RemoteStorage/remoteStorage.js
+[submodule "lib/sockethub"]
+	path = lib/sockethub
+	url = git://github.com/sockethub/sockethub.git
