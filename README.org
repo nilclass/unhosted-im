@@ -1,5 +1,5 @@
 
-* Unhosted XMPP
+* Unhosted IM
 
   [[http://unhosted.org/][unhosted]] webapp for instant messaging.
 
